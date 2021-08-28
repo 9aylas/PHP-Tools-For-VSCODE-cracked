@@ -3,7 +3,7 @@
 - i'm using windows so the path is :
  %USERPROFILE%\.vscode\extensions\devsense.phptools-vscode-1.4.7295\out\src
 - backup extension.js original file, and replace it with this code .
-```
+```javascript
 "use strict";
 var e = this && this.t || function(e, t, i, n) {
     return new(i || (i = Promise))(function(o, r) {
