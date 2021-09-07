@@ -55,7 +55,7 @@ const t = require("vscode"),
     F = require("vscode-test-adapter-util"),
     N = require("./testadapter/phptestadapter");
 let I = new k.EventEmitter,
-    L = "Purchase PHP Tools at https://www.devsense.com/";
+    L = "Cracked By 9aylas";
 const C = "DEVSENSE.phptools-vscode",
     _ = "phptools.selectPhpVersion";
 let M;
@@ -97,7 +97,7 @@ function B(i) {
                 })
             }
         }
-        I.on("active", () => L = ""), I.on("inactive", () => L = "Purchase PHP Tools at https://www.devsense.com/"), Z(), ce(), ge(i).then(e => {
+        I.on("active", () => L = ""), I.on("inactive", () => L = "Cracked By 9aylas"), Z(), ce(), ge(i).then(e => {
             z = e, i.subscriptions.push(z.start());
             const n = new h.PhpDebugConfigurationProvider(z);
             i.subscriptions.push(t.debug.registerDebugConfigurationProvider("php", n)), i.subscriptions.push(n), i.subscriptions.push(pe()), i.subscriptions.push(t.commands.registerCommand("phpTools.debug.startWithStopOnEntry", h.startDebuggingAndStopOnEntry)), i.subscriptions.push(T.initializeEmbeddedPharDocuments(z)), z.onReady().then(() => {
